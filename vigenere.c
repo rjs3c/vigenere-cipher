@@ -243,7 +243,6 @@ encrypt(config_t *config) {
         * the offset's case is inverted.
         */
         + (isupper(config->message[enc_ctr]) ? ASCII_HIGHER_OFFSET : ASCII_LOWER_OFFSET);
-    }
   }
 
   config->output = text_enciphered;
