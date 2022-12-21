@@ -219,7 +219,7 @@ encrypt(config_t *config) {
     */ 
     if (!isalpha(config->message[enc_ctr])) 
       text_enciphered[enc_ctr] = config->message[enc_ctr];
-    else {
+    else
 
       /**
       * Equivalent calculation:
