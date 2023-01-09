@@ -3,6 +3,7 @@
 ## Contents
 1. [Description](#description)
 2. [Installation](#installation)
+3. [Usage](#Usage)
 
 ## Description
 A C-based Implementation of the Vigenère Cipher.
