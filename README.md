@@ -23,6 +23,9 @@ $ .\vigenere.exe
 ```
 ## Usage
 ```
+./vigenere -h
+```
+```
 usage: ./vigenere [-h] "message" [-m MODE] [-k "KEY"]
 
 positional arguments:
